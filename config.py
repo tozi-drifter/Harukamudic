@@ -14,11 +14,11 @@ BOT_TOKEN = getenv("BOT_TOKEN")
 # Add Owner Username without @ 
 OWNER_USERNAME = getenv("OWNER_USERNAME", "Bang_Brave_Bang_Bravern")
 # Get Your bot username
-BOT_USERNAME = getenv("BOT_USERNAME", "tojiproxbot")
+BOT_USERNAME = getenv("BOT_USERNAME", "yakuzaproxbot")
 # Don't Add style font 
-BOT_NAME = getenv("BOT_NAME", "⌜ 𝐓ᴏᴊɪ x 𝐙ᴇɴɪɴ ⌟")
+BOT_NAME = getenv("BOT_NAME", "⌜ 𝐘𝐀𝐊𝐔𝐙𝐀 ⌟")
 #get Your Assistant User name
-ASSUSERNAME = getenv("ASSUSERNAME", "Toji_assistant")
+ASSUSERNAME = getenv("ASSUSERNAME", "yakuza_assistant")
 EVALOP = list(map(int, getenv("EVALOP", "6392704171").split()))
 # Get your mongo url from cloud.mongodb.com
 MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://sanasomani786:TJgADfpkI1XVUkKt@cluster0.ruhyad9.mongodb.net/?retryWrites=true&w=majority&appName=AtlasApp")
@@ -51,8 +51,8 @@ GIT_TOKEN = getenv(
     "GIT_TOKEN", None
 )  # Fill this variable if your upstream repository is private
 
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/Anime_dubbers_group")
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/toji_SUPPORT_chat")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/yakuza_updates")
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/yakuza_SUPPORT_chat")
 
 # Set this to True if you want the assistant to automatically leave chats after an interval
 AUTO_LEAVING_ASSISTANT = bool(getenv("AUTO_LEAVING_ASSISTANT", False))
@@ -100,21 +100,22 @@ confirmer = {}
 
 
 START_IMG_URL = getenv(
-    "START_IMG_URL", "https://mallucampaign.in/images/img_1711946153.jpg"
+    "START_IMG_URL", "https://mallucampaign.in/images/img_1712376983.jpg"
 )
 PING_IMG_URL = getenv(
-    "PING_IMG_URL", "https://mallucampaign.in/images/img_1711946030.jpg"
+    "PING_IMG_URL", "https://mallucampaign.in/images/img_1712329907.jpg"
 )
-PLAYLIST_IMG_URL = "https://mallucampaign.in/images/img_1711946093.jpg"
-STATS_IMG_URL = "https://mallucampaign.in/images/img_1711946195.jpg"
-TELEGRAM_AUDIO_URL = "https://mallucampaign.in/images/img_1711946240.jpg "
-TELEGRAM_VIDEO_URL = "https://mallucampaign.in/images/img_1711946319.jpg"
-STREAM_IMG_URL = "https://mallucampaign.in/images/img_1711946364.jpg"
-SOUNCLOUD_IMG_URL = "https://mallucampaign.in/images/img_1711946415.jpg"
-YOUTUBE_IMG_URL = "https://mallucampaign.in/images/img_1711946470.jpg"
-SPOTIFY_ARTIST_IMG_URL = "https://mallucampaign.in/images/img_1711946470.jpg"
-SPOTIFY_ALBUM_IMG_URL = "https://mallucampaign.in/images/img_1711946546.jpg"
-SPOTIFY_PLAYLIST_IMG_URL = "https://mallucampaign.in/images/img_1711946581.jpg"
+PLAYLIST_IMG_URL = "https://mallucampaign.in/images/img_1712329909.jpg"
+STATS_IMG_URL = "https://mallucampaign.in/images/img_1712329912.jpg"
+TELEGRAM_AUDIO_URL = "https://mallucampaign.in/images/img_1712329911.jpg"
+TELEGRAM_VIDEO_URL = "https://mallucampaign.in/images/img_1712329913.jpg"
+STREAM_IMG_URL = "https://mallucampaign.in/images/img_1712329914.jpg"
+SOUNCLOUD_IMG_URL = "https://mallucampaign.in/images/img_1712330029.jpg"
+YOUTUBE_IMG_URL = "https://mallucampaign.in/images/img_1712330030.jpg"
+SPOTIFY_ARTIST_IMG_URL = "https://mallucampaign.in/images/img_1712330083.jpg"
+SPOTIFY_ALBUM_IMG_URL = "https://mallucampaign.in/images/img_1712330085.jpg"
+SPOTIFY_PLAYLIST_IMG_URL = "https://mallucampaign.in/images/img_1712330086.jpg"
+
 
 
 def time_to_seconds(time):
