@@ -150,7 +150,7 @@ async def kang(client, message: Message):
                     [sticker],
                 )
             elif stickerset.set.count >= MAX_STICKERS:
-                packnum += 50
+                packnum += 1
                 packname = (
                     "f"
                     + str(packnum)
